@@ -1,0 +1,8 @@
+travel = int(input("Travel distance: "))
+
+fuelprice = 13000
+totalliter = int(travel / 40)
+total = fuelprice * totalliter
+
+print("Price of motorcycle fuel per liter: 13k")
+print("Total fuel cost for the trip is", total)
