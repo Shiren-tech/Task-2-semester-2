@@ -1,0 +1,6 @@
+laptop = int(input("Laptop price: "))
+saving = float(input("Monthly savings allocation: "))
+
+month = int(laptop / saving)
+
+print("You need to saving for", month ,"months to buy the laptop")
