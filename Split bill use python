@@ -1,0 +1,10 @@
+people = int(input("How many people in: "))
+granttotal = float(input("Grand Total: "))
+
+tax = 10
+totalbill = (tax/100) * granttotal
+
+plus  = int(totalbill + granttotal)
+end = int(plus / people)
+
+print("So the total is", plus , "Include the tax 10%, so you must pay", end , "every person")
