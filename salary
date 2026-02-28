@@ -1,0 +1,10 @@
+base_salary = 5000000
+allowance = 750000
+bpjs_deduction = 0.02
+tax_deduction = 0.05
+
+total_deduction = bpjs_deduction + tax_deduction
+totalsalary = int(base_salary + allowance)
+total = int((totalsalary) * total_deduction)
+salary = int(totalsalary - total)
+print("Total net salary received: ", salary)
