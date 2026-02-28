@@ -1,0 +1,10 @@
+work = input("Work time conversion (format hour.minutes): ")
+hour, minutes = map(int, work.split('.'))
+
+total = hour + (minutes / 60.0)
+hourlyrate = 85000
+totalsalary = total * hourlyrate
+
+print("Hourly rate 85k/hour")
+print("Total hour in decimal:", "{:.2f}".format(total))
+print("Your total salary: ", int(totalsalary))
