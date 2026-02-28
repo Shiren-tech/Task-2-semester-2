@@ -3,4 +3,7 @@ saving = float(input("Monthly savings allocation: "))
 
 month = int(laptop / saving)
 
-print("You need to saving for", month ,"months to buy the laptop")
+if saving > laptop:
+    print("You can buy now mate, what are you waiting for??")
+else:
+    print("You need to saving for", month ,"months to buy the laptop")
