@@ -1,0 +1,12 @@
+print("Asset Depreciation Calculation")
+
+laptop_price = 12000000
+salvage_value = 2000000
+economic_life = 4
+
+annual_dep = int((laptop_price - salvage_value) / 4)
+totalafter_2years = annual_dep * 2
+valueafter_2years = laptop_price - totalafter_2years
+
+print("Annual depreciation every years is", annual_dep)
+print("Laptop value after 2 years is", valueafter_2years)
