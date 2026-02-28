@@ -1,0 +1,16 @@
+import math
+
+family = int(input("Total people in the house: "))
+
+gallon = 19
+person = 2.5
+aqua_price = 19000
+
+per_orang = family * person
+total_weekly = int(per_orang * 7)
+gallon_needed = math.ceil(total_weekly / gallon)
+total_budget = gallon_needed * aqua_price
+
+print("Total weekly water requirement:", total_weekly ,"Liter")
+print("How many gallons must be purchased:", gallon_needed ,"Gallon")
+print("Total budget needed:", total_budget)
