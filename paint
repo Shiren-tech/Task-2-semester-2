@@ -1,0 +1,15 @@
+import math
+
+print("Wall painting area calculation")
+length = int(input("Length: "))
+width = int(input("Width: "))
+height= int(input("Height: "))
+
+coverage = 10
+keliling = 2 * (length + width)
+luasdinding = keliling * height
+
+paint = luasdinding / coverage
+
+print("Wall area", luasdinding ,"m²")
+print("Amount can of paint needed", math.ceil(paint))
